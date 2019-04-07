@@ -76,6 +76,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 fragment = America()
                 selectedFragment = true
             }
+            R.id.iron_man -> {
+                fragment = IronMan()
+                selectedFragment = true
+            }
             R.id.black_widow -> {
                 fragment = BlackWidow()
                 selectedFragment = true
@@ -88,10 +92,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 fragment = Hulk()
                 selectedFragment = true
             }
-            R.id.iron_man -> {
-                fragment = IronMan()
-                selectedFragment = true
-            }
+
             R.id.thor -> {
                 fragment = Thor()
                 selectedFragment = true
